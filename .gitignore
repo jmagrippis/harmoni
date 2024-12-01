@@ -1,0 +1,2 @@
+# Ignore Turborepo cache directory
+.turbo
