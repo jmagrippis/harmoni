@@ -1,2 +1,18 @@
-# Ignore Turborepo cache directory
+test-results
+node_modules
+
+# Output
+.output
+.vercel
+.svelte-kit
+build
 .turbo
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

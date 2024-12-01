@@ -1,17 +1,21 @@
 {
-  "name": "harmoni",
-  "version": "1.0.0",
-  "description": "A monorepo for playlist generation software",
-  "scripts": {
-    "dev": "turbo dev",
-    "test": "turbo test",
-    "build": "turbo build"
-  },
-  "keywords": [],
-  "author": "Johnny Magrippis <j@magrippis.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "turbo": "^2.3.3"
-  },
-  "packageManager": "pnpm@9.11.0"
+	"name": "harmoni",
+	"version": "1.0.0",
+	"description": "A monorepo for playlist generation software",
+	"scripts": {
+		"dev": "turbo dev",
+		"test": "turbo test",
+		"build": "turbo build",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "Johnny Magrippis <j@magrippis.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^3.4.1",
+		"prettier-plugin-svelte": "^3.3.2",
+		"prettier-plugin-tailwindcss": "^0.6.9",
+		"turbo": "^2.3.3"
+	},
+	"packageManager": "pnpm@9.11.0"
 }
