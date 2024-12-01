@@ -10,11 +10,12 @@
 
 <form method="POST" use:enhance class="space-y-4">
 	<div>
-		<label for="lengthInMinutes" class="block text-sm font-medium text-gray-700"
-			>Playlist Length (in minutes)</label
-		>
+		<label for="lengthInMinutes" class="block text-sm font-medium text-gray-700">
+			Playlist Length (in minutes)
+		</label>
 		<input
 			type="number"
+			id="lengthInMinutes"
 			name="lengthInMinutes"
 			class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
 			aria-invalid={$errors.lengthInMinutes ? 'true' : undefined}
